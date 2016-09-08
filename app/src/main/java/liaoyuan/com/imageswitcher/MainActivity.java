@@ -56,7 +56,6 @@ ImageSwitcher switcher;
         switcher=(ImageSwitcher)findViewById(R.id.switcher);
         switcher.setFactory(this);
         //设置切换动画样式
-        //
         switcher.setInAnimation(AnimationUtils.loadAnimation(this,
                 android.R.anim.fade_in));
         switcher.setOutAnimation(AnimationUtils.loadAnimation(this,
